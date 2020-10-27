@@ -19,9 +19,12 @@
     <h3>Subscribe and get notified</h3>
 
     <div class="wrapper">
-      <form action="post">
-        <input type="email" placeholder="Your email address...">
-        <button>Notify Me</button>
+      <form id="form">
+        <input type="email" placeholder="Your email address..." id="email">
+        <p class='warning-message2'>Please provide a valid email address</p>
+
+        <button id="notify-me" type="button">Notify Me</button>
+        <p class='warning-message1'>Please provide a valid email address</p>
       </form>
     </div>
 
@@ -42,7 +45,7 @@
       </address>
     </footer>
   </div>
-
+  <script src="./app.js"></script>
 </body>
 
 </html>

@@ -14,7 +14,7 @@ html {
 }
 
 a {
-    color: hsl(223, 77%, 50%)
+    color: hsl(223, 77%, 50%);
 }
 
 a:visited {
@@ -64,6 +64,26 @@ input {
     margin-right: 1rem;
 }
 
+.warning-message1 {
+    display: none;
+    margin-top: 0.3rem;
+    color: hsl(354, 100%, 66%);
+    font-size: 0.7rem;
+    position: relative;
+    left: -170px;
+}
+
+.warning-message2 {
+    position: relative;
+    left: 0px;
+    margin: auto;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+    margin-top: -0.5rem;
+    color: hsl(354, 100%, 66%);
+    display: none;
+}
+
 button {
     font-weight: 600;
     letter-spacing: 0.8px;
@@ -74,6 +94,10 @@ button {
     border-radius: 25px;
     border: none;
     box-shadow: 5px 5px 8px hsl(223, 100%, 88%);
+}
+
+button:hover {
+    background: hsl(223, 57%, 50%);
 }
 
 div+img {
@@ -96,6 +120,11 @@ i {
     height: 1rem;
 }
 
+i:hover {
+    color: white;
+    background: hsl(223, 77%, 50%);
+}
+
 footer address p {
     color: hsl(0, 0%, 59%);
     margin-top: 0rem;
@@ -103,9 +132,11 @@ footer address p {
     font-style: normal;
     font-weight: 400;
     font-size: 0.6rem;
-
 }
 
+footer {
+    margin-bottom: 0.5rem;
+}
 
 .attribution {
     font-size: 11px;
